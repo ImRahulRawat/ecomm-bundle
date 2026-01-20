@@ -15,6 +15,7 @@ function Header() {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className="mr-auto nav_bar_wrapper">
+             <Link to="/">Product List</Link>
           {
             localStorage.getItem('user-info')?
                 <>
